@@ -1,3 +1,4 @@
-select *
-from users
-where mail regexp("^[A-Z|a-z][ 0-9A-Za-z\\-\\.\\_]*@leetcode\\.com$")
+
+SELECT *
+FROM Users
+WHERE mail REGEXP '^[A-Z|a-z][0-9a-zA-Z\\_\\.\\-]*@leetcode\\.com$'
